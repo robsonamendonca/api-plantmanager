@@ -1,13 +1,14 @@
 {
-    "Post": {
-        "título": "string",
-        "vistas": "int",
-        "publicado": "booleano",
-        "criadoAt": "data",
-        "comentários": "Comment[]"
+    "Plants": {
+        "id": "int",
+        "name": "string",
+        "about": "string",
+        "water_tips": "string",
+        "photo": "string",
+        "environments": "Plants_environment[]"
     },
-    "Comentário": {
-        "corpo": "string",
-        "post": "Post"
+    "Plants_environments": {
+        "key": "string",
+        "title": "string"
     }
 }
