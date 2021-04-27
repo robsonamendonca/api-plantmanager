@@ -5,10 +5,5 @@
         "about": "string",
         "water_tips": "string",
         "photo": "string",
-        "environments": "Plants_environment[]"
-    },
-    "Plants_environments": {
-        "key": "string",
-        "title": "string"
     }
 }
