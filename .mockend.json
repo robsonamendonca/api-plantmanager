@@ -4,6 +4,6 @@
         "name": "string",
         "about": "string",
         "water_tips": "string",
-        "photo": "string",
+        "photo": "string"
     }
 }
