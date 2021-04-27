@@ -1,26 +1,13 @@
 {
-    "plants_water_frequencies": {
-        "key": "string",
-        "title": "string"
+    "Post": {
+        "título": "string",
+        "vistas": "int",
+        "publicado": "booleano",
+        "criadoAt": "data",
+        "comentários": "Comment[]"
     },
-    "plants_environments": {
-        "key": "string",
-        "title": "string"
-    },
-    "plants": {
-        "id": "int",
-        "name": "string",
-        "about": "string",
-        "water_tips": "string",
-        "photo": "string",
-        "environments": "Environment[]",
-        "frequency": "Freq"
-    },
-    "Environment": {
-        "title": "string"
-    },
-    "Freq": {
-        "times": "int",
-        "repeat_every": "string"
+    "Comentário": {
+        "corpo": "string",
+        "post": "Post"
     }
 }
